@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #191d28;
+}
+
+.head {
+    color: #3dc6c1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoText {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.timer {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1.2rem;
+    border: 1px solid #3dc6c1;
+    border-radius: 10px;
+    min-width: 2rem;
+    text-align: center;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+.bestPrice {
+    color: #818389;
+    font-size: 1.4rem;
+}
+
+.price {
+    color: azure;
+    font-size: 5rem;
+}
+
+.dataTable {
+    display: flex;
+    flex-direction: column;
+    margin: 0.8rem;
+    font-size: 2rem;
+    font-weight: 500;
+    overflow-x:scroll;
+    margin: 0;
+    color: #818389;
+}
+
+.headTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.headers {
+    flex: 1 1 0;
+    width: 0;
+    margin: 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid #818389;
+    overflow-x: scroll;
+    min-width: 0.1fr;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.infobox {
+    flex: 1 1 0;
+    width: 0;
+    margin: 0.5rem;
+    text-align: center;
+    color: whitesmoke;
+    overflow-x: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+    .logoText {
+        font-size: 2rem;
+    }
+    .timer {
+        font-size: 0.5rem;
+    }
+    .bestPrice {
+        font-size: 0.7rem;
+    }
+    .price{
+        font-size: 2rem;
+    }
+    .dataTable {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logoText {
+        font-size: 3rem;
+    }
+    .timer {
+        font-size: 0.9rem;
+    }
+    .bestPrice {
+        font-size: 1.3rem;
+    }
+    .price{
+        font-size: 3rem;
+    }
+    .dataTable {
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logoText {
+        font-size: 4rem;
+    }
+    .timer {
+        font-size: 1.3rem;
+    }
+    .bestPrice {
+        font-size: 1.4rem;
+    }
+    .price{
+        font-size: 5rem;
+    }
+    .dataTable {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
