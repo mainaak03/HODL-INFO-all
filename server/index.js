@@ -40,7 +40,7 @@ app.get("/", async (req,res) => {
     const info=new Info({
         data: final_data
     });
-    // info.save();
+    info.save();
 
     res.status(200).json(info);
 });
